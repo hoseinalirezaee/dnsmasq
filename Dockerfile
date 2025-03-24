@@ -1,6 +1,6 @@
-FROM alpine:3.18
+FROM alpine:3.21
 
-ARG VERSION=2.89-r5
+ARG VERSION=2.91
 
 RUN apk add --no-cache dnsmasq=${VERSION}
 
